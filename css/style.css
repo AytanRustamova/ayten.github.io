@@ -687,6 +687,13 @@ header{
 
 
 @media screen and (max-width:576px){
+
+    .main-content{
+        height: 300px;
+    }
+    .about-image{
+        margin-top: 10rem;
+    }
     .about-image img {
         width: 81%;
         margin-bottom: 2rem;
