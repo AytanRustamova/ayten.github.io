@@ -688,9 +688,7 @@ header{
 
 @media screen and (max-width:576px){
 
-    .main-content{
-        height: 300px;
-    }
+   
     .about-image{
         margin-top: 10rem;
     }
@@ -707,7 +705,7 @@ header{
     }
 
     .content-p p{
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin: auto;
         margin-bottom: 3rem;
     }
@@ -760,12 +758,26 @@ header{
         font-size: 3em;
        
     }
+
+    .main-content h1{
+        font-size: 1.5em;
+    }
+
+    .content-p p{
+        font-size: 1em;
+      
+    }
+
 }
 
 
 @media screen and (max-width: 376px){
     .footer-content h2 {
         font-size: 1em;
+    }
+
+    .about-image{
+        margin-top: 13rem;
     }
 }
 
