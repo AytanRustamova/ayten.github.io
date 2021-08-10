@@ -63,6 +63,7 @@ header{
     width: 100%;
     z-index: 1;
     padding: 0 30px;
+    height: 80px;
 }
 
  .sticky{
@@ -118,6 +119,7 @@ header{
     height: 60px;
     object-fit: cover;
     border-radius: 50%;
+    margin-bottom: 40px;
 }
 
 .top-name p{
@@ -127,6 +129,7 @@ header{
     align-items: center;
     margin-left: 15px;
     margin-top: 15px;
+    margin-bottom: 50px;
     letter-spacing: 6px;
     text-transform: uppercase;
 }
@@ -137,7 +140,7 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 1.3em;
-    margin-top: 33px;
+    margin-top: 15px;
 }
 
 .navbar-links ul li{
@@ -165,6 +168,10 @@ header{
     height:  94px;
     justify-content: center;
     
+}
+
+.line ul{
+    margin-bottom: 2.5rem;
 }
 .toggle-menu{
     position: fixed;
@@ -418,6 +425,17 @@ header{
         width: 75%;
         height: 500px;
         object-fit: cover;
+       
+    }
+
+    .leftImage{
+        transform: translateX(-170%);
+        transition: all 1s ease;
+    }
+
+    .rightImage{
+        transform: translateX(170%);
+        transition: all 1s ease;
     }
 
     .works-item-content{
@@ -513,6 +531,7 @@ header{
 .text a{
     color: #fff;
     font-weight: 200;
+    font-size: 18px;
 }
 
 
@@ -617,6 +636,15 @@ header{
     .works-item-content p{
         font-size: 1.3em;
     } 
+
+    .works-item-content{
+        /* order: 1; */
+    }
+
+    .order{
+        order: 1;
+    }
+
 
 }
 
