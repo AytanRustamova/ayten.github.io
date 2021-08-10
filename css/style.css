@@ -176,6 +176,9 @@ header{
 .toggle-menu{
     position: fixed;
     display: none;
+    width: 100%;
+    background: gray;
+    margin-top: 3rem;
    
 }
 .toggle-menu ul{
@@ -184,11 +187,12 @@ header{
     justify-content: space-between;
     align-items: center;
     
+    
     /* align-items: center; */
 }
 
 .toggle-menu ul li{
-
+    margin: 20px 0;
 }
 
 .toggle-menu ul li a{
@@ -264,6 +268,7 @@ header{
     .about-content{
         position: relative;
         top: 50px;
+        z-index: -1;
        
     }
     .about-content h2{
@@ -340,6 +345,8 @@ header{
     #skills{
         /* height: 100vh; */
         margin-bottom: 15rem;
+        position: relative;
+        z-index: -1;
     }
     .skills-heading{
        text-align: center;
@@ -391,6 +398,8 @@ header{
 
     /* Works Section */
     #works{
+        position: relative;
+        z-index: -1;
        
     }
 
@@ -471,6 +480,8 @@ header{
 #blog{
     /* height: 100vh; */
     margin-bottom: 10rem;
+    position: relative;
+    z-index: -1;
 }
 
 
@@ -538,6 +549,8 @@ header{
 /* Footer */
 
 #footer-section{
+    position: relative;
+    z-index: -1;
     /* height: 100vh; */
     margin-bottom: 5rem;
 

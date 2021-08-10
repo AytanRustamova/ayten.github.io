@@ -23,7 +23,7 @@ window.addEventListener("scroll" , () => {
     let stickyHeader = document.querySelector("header");
     // console.log(stickyHeader);
 
-    stickyHeader.classList.toggle("sticky", window.scrollY>450);
+    stickyHeader.classList.toggle("sticky", window.scrollY>250);
 });
 
 
@@ -79,14 +79,13 @@ burgerMenuLine.addEventListener('click',() =>{
    
     if(menuStatus){
         toggleMenu.style.display = 'block';
-        document.querySelector("body").style.background='rgba(255, 255, 255, 0.1)';
+        document.querySelector("body").style.background='rgba(0, 0, 0, 0.5)';
         document.querySelector("body").style.opacity='1';
         bulgerMenuLineLi.style.background = '#121212';
         
 
         menuStatus=false;
     } else{
-        console.log('salam da salam')
         toggleMenu.style.display = 'none';
         document.querySelector("body").style.background='rgba(0, 0, 0, 1)';
         menuStatus=true;
